@@ -43,6 +43,10 @@ class HomePage: UIViewController {
             }
         }
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        homePageVM.uploadPersons()
+    }
 }
 
 extension HomePage: UITableViewDelegate, UITableViewDataSource {

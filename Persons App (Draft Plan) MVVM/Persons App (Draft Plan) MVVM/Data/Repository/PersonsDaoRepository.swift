@@ -21,6 +21,7 @@ class PersonsDaoRepository {
     
     func delete(person_id: Int) {
         print("Person Delete: \(person_id)")
+        uploadPersons()
     }
     
     func search(searchText: String) {
