@@ -37,8 +37,8 @@ class PersonDetail: UIViewController {
                 let pName = personName.trimmingCharacters(in: .whitespaces)
                 let pPhone = personPhone.trimmingCharacters(in: .whitespaces)
                 personDetailVM.update(person_id: p.person_id!,
-                                                  person_name: pName,
-                                                  person_phone: pPhone)
+                                      person_name: pName,
+                                      person_phone: pPhone)
                 navigationController?.popToRootViewController(animated: true)
             } else {
                 let alertController = UIAlertController(title: "Error", message: "Please check fields!", preferredStyle: .alert)

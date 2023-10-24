@@ -21,5 +21,4 @@ class Persons {
         self.person_name = person_name
         self.person_phone = person_phone
     }
-
 }
